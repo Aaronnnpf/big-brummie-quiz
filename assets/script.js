@@ -30,3 +30,10 @@ const questions = [
     correct: 1
 }
 ];
+
+let currentQuestion = 0;
+
+const questionElement1 = document.getElementById("question");
+cosnt cardContainer = document.getElementById("card-container");
+const feedbackElement1 = document.getElementById("feedback");
+const nextBtn = document.getElementById("next-btn");
