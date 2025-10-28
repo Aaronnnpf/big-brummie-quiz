@@ -34,6 +34,6 @@ const questions = [
 let currentQuestion = 0;
 
 const questionElement1 = document.getElementById("question");
-cosnt cardContainer = document.getElementById("card-container");
+const cardContainer = document.getElementById("card-container");
 const feedbackElement1 = document.getElementById("feedback");
 const nextBtn = document.getElementById("next-btn");
