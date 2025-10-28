@@ -37,3 +37,19 @@ const questionElement1 = document.getElementById("question");
 const cardContainer = document.getElementById("card-container");
 const feedbackElement1 = document.getElementById("feedback");
 const nextBtn = document.getElementById("next-btn");
+
+function loadQuestion() {
+    const q = questions[currentQuestions];
+    questionElement1.textContent = q.question;
+    cardContainer.innerHTML = "";
+    feedbackElement1.textContent = "";
+    nextBtn.classList.add("hidden");
+
+    q.answers.forEach((answer, index) => {
+        const card = document.createElement("div");
+        card.classList.add("card");
+        card.textContent = answer;
+        card.addEventListener("click", () => selectAnswer(index, card));
+        cardContainer.appendChild(card);
+    });
+}
