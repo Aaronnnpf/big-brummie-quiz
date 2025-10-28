@@ -53,3 +53,19 @@ function loadQuestion() {
         cardContainer.appendChild(card);
     });
 }
+
+function selectAnswer(index, card) {
+    const q = questions[currentQuestion];
+    const cards = document.querySelectorAll(".card");
+    cards.forEach(c => c.classList.add("disabled"));
+
+    if (index === q.correct) {
+        card.classList.add("Correct");
+        feedbackElement1.textContent = "Correct";
+        nextBtn.classList.remove("hidden");
+    } else {
+        card.classList.add("Wrong");
+        feedbackElement1.textContent = "Wrong, Try Again"
+        nextBtn.classList.reomove("hidden");
+    };
+}
