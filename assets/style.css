@@ -1,0 +1,31 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* CSS Variables */
+:root {
+    --primary-font: "noto", sans-serif;
+    --secondary-font: "roboto", cursive;
+    --primary-color: #000000;
+    --secondary-colour: #ffffff;
+}
+
+body {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    padding-top: 50px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: lightskyblue;
+}
+
+h1 {
+    font-family: var(--secondary-font);
+    color: var(--primary-colour);
+    text-transform: capitalize;
+    text-align: center;
+    height: 400px;
+    width: 100%;
+    background: url("../assets/images/central-library.jpg") no-repeat center center/cover;
+    position: relative;
+}

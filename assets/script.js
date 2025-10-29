@@ -69,3 +69,17 @@ function selectAnswer(index, card) {
         nextBtn.classList.reomove("hidden");
     };
 }
+
+nextBtn.addEventListener("click", () => {
+    currentQuestion ++;
+    if (currentQuestion < questions.length) {
+        loadQuestion();
+    } else {
+        questionElement1.textContent = "Congratulations, You have finished the quiz!"
+        cardContainer.innerHTML = "";
+        feedbackElement1,textContent = "";
+        nextBtn.classList.add("hidden");
+    }
+});
+
+loadQuestion ();
