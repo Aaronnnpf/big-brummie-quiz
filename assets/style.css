@@ -3,10 +3,10 @@
 
 /* CSS Variables */
 :root {
-    --primary-font: "noto", sans-serif;
-    --secondary-font: "roboto", cursive;
+    --primary-font: "Noto Sans", sans-serif;
+    --secondary-font: "Roboto Condensed", cursive;
     --primary-color: #000000;
-    --secondary-colour: #ffffff;
+    --secondary-color: #ffffff;
 }
 
 body {
@@ -14,13 +14,14 @@ body {
     color: var(--primary-color);
     padding-top: 50px;
     display: flex;
+    justify-content: center;
     margin: 0;
     padding: 0;
     background-color: lightskyblue;
 }
 
 h1 {
-    font-family: var(--secondary-font);
+    font-family: var(--primary-font);
     color: var(--primary-colour);
     text-transform: capitalize;
     text-align: center;
@@ -28,4 +29,13 @@ h1 {
     width: 100%;
     background: url("../assets/images/central-library.jpg") no-repeat center center/cover;
     position: relative;
+}
+
+.quiz-container {
+    text-align: center;
+    border-radius: 20px;
+    padding: 30px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
