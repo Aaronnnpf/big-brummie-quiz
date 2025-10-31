@@ -39,7 +39,7 @@ const feedbackElement1 = document.getElementById("feedback");
 const nextBtn = document.getElementById("next-btn");
 
 function loadQuestion() {
-    const q = questions[currentQuestions];
+    const q = questions[currentQuestion];
     questionElement1.textContent = q.question;
     cardContainer.innerHTML = "";
     feedbackElement1.textContent = "";
