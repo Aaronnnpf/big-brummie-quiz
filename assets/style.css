@@ -44,12 +44,15 @@ p {
 }
 
 .quiz-container {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
     text-align: center;
     border-radius: 20px;
     padding: 30px;
     width: 90%;
     max-width: 400px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    font-size: 1.2rem;
 }
 
 .card-container {
@@ -61,6 +64,7 @@ p {
 }
 
 .card {
+    font-family: var(--secondary-font);
     background: #ffffff;
     color: #7e0000;
     padding: 20px;

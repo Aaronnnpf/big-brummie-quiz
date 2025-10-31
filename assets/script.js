@@ -1,7 +1,7 @@
 // sitepoint was used to aid in my question creation //
 const questions = [
 {
-    question: "What one of these site's Birmingham gave inspiration to J.R.R. Tolkien for The Lord Of The Rings?",
+    question: "What one of these site's in Birmingham gave inspiration to J.R.R. Tolkien for The Lord Of The Rings?",
     answers: ["Bull Ring", "Blakesley Hall", "Sarehole Mill", "Selfridges"], 
     correct: 2
 },
@@ -11,7 +11,7 @@ const questions = [
     correct: 3
 },
 {
-    question: "In 1930 the first ODEON Cinema was built in what part of Birmingham?",
+    question: "In the year 1930 the first ODEON Cinema was built in what part of Birmingham?",
     answers: ["Perry Barr", "Weoley Castle", "Yardley", "Great Barr"],
     correct: 0
 },
@@ -26,7 +26,7 @@ const questions = [
     correct: 3
 },
 { 
-    question: "Which of these sports was invented in 1859 in Edgbaston, Birmingham?",
+    question: "Which of these sports was invented in the year 1859 in Edgbaston, Birmingham?",
     answers: ["Rugby", "Tennis", "Lawn Bowls", "Polo"],
     correct: 1
 }
