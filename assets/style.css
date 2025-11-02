@@ -90,10 +90,10 @@ button {
 }
 .card.correct {
     background:lightseagreen;
-    color: #ffffff;
+    color: #000000;
 }
 
 .card.wrong {
     background: #7e0000;
-    color: red;
+    color: white;
 }

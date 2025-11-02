@@ -34,6 +34,9 @@ const questions = [
 
 let currentQuestion = 0;
 
+const quizStart = document.getElementById("");
+const quizEnd = document.getElementById("");
+
 const questionElement1 = document.getElementById("question");
 const cardContainer = document.getElementById("card-container");
 const feedbackElement1 = document.getElementById("feedback");
