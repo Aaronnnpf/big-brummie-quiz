@@ -33,6 +33,11 @@ h1 {
     position: relative;
 }
 
+h2 {
+    font-family: var(--secondary-font);
+    text-transform: capitalize;
+}
+
 p {
     font-family: var(--secondary-font);
     text-align: center;
@@ -96,4 +101,14 @@ button {
 .card.wrong {
     background: #7e0000;
     color: white;
+}
+
+.quiz-start {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.quiz-end {
+    text-align: center;
+    margin-top: 40px;
 }
