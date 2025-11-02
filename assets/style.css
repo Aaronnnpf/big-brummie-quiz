@@ -83,3 +83,17 @@ button {
     font-size: 15px;
     cursor: pointer;
 }
+
+.card:hover{
+    background: #f0f0f0;
+    transform: translateY(-3px);
+}
+.card.correct {
+    background:lightseagreen;
+    color: #ffffff;
+}
+
+.card.wrong {
+    background: #7e0000;
+    color: red;
+}

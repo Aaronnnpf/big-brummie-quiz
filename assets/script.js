@@ -61,11 +61,11 @@ function selectAnswer(index, card) {
     cards.forEach(c => c.classList.add("disabled"));
 
     if (index === q.correct) {
-        card.classList.add("Correct");
+        card.classList.add("correct");
         feedbackElement1.textContent = "Correct";
         nextBtn.classList.remove("hidden");
     } else {
-        card.classList.add("Wrong");
+        card.classList.add("wrong");
         feedbackElement1.textContent = "Wrong, Try Again"
         nextBtn.classList.reomove("hidden");
     };
