@@ -80,22 +80,24 @@ function selectAnswer(index, card) {
     if (index === q.correct) {
         card.classList.add("correct");
         feedbackElement1.textContent = "Correct";
-        nextBtn.classList.remove("hidden");
     } else {
         card.classList.add("wrong");
         feedbackElement1.textContent = "Wrong, Try Again"
-        nextBtn.classList.remove("hidden");
     };
+    nextBtn.classList.remove("hidden");
 }
 
-nextBtn.addEventListener("click", () => {
-    currentQuestion ++;
+function nextQuestion() {
+    currentQuestion++;
     if (currentQuestion < questions.length) {
         loadQuestion();
     } else {
-        questionElement1.textContent = "Congratulations, You have finished the quiz!"
-        cardContainer.innerHTML = "";
-        feedbackElement1.textContent = "";
-        nextBtn.classList.add("hidden");
+        endQuiz();
     }
-});
+}
+
+function endQuiz() {
+    quizContainer.classList.add("hidden");
+    quizEnd.classList.remove("hidden");
+    currentQuestion = 0;
+}
