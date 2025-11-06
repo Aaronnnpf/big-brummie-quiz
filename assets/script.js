@@ -40,14 +40,21 @@ const quizEnd = document.getElementById("quiz-end");
 
 const startBtn = document.getElementById("start-btn");
 const endBtn = document.getElementById("end-btn");
+const nextBtn = document.getElementById("next-btn");
+
 const questionElement1 = document.getElementById("question");
 const cardContainer = document.getElementById("card-container");
 const feedbackElement1 = document.getElementById("feedback");
-const nextBtn = document.getElementById("next-btn");
 
 startBtn.addEventListener("click", startQuiz);
 endBtn.addEventListener("click", endQuiz);
 nextBtn.addEventListener("click", nextQuestion);
+
+function startQuiz() {
+    quizStart.classList.add("hidden");
+    quizContainer.classList.remove("hidden");
+    loadQuestion();
+}
 
 function loadQuestion() {
     const q = questions[currentQuestion];
@@ -92,5 +99,3 @@ nextBtn.addEventListener("click", () => {
         nextBtn.classList.add("hidden");
     }
 });
-
-loadQuestion ();
