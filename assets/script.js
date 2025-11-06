@@ -77,7 +77,7 @@ function selectAnswer(index, card) {
     } else {
         card.classList.add("wrong");
         feedbackElement1.textContent = "Wrong, Try Again"
-        nextBtn.classList.reomove("hidden");
+        nextBtn.classList.remove("hidden");
     };
 }
 
@@ -88,7 +88,7 @@ nextBtn.addEventListener("click", () => {
     } else {
         questionElement1.textContent = "Congratulations, You have finished the quiz!"
         cardContainer.innerHTML = "";
-        feedbackElement1,textContent = "";
+        feedbackElement1.textContent = "";
         nextBtn.classList.add("hidden");
     }
 });
