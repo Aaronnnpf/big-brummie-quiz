@@ -47,7 +47,7 @@ const cardContainer = document.getElementById("card-container");
 const feedbackElement1 = document.getElementById("feedback");
 
 startBtn.addEventListener("click", startQuiz);
-endBtn.addEventListener("click", endQuiz);
+endBtn.addEventListener("click", restartQuiz);
 nextBtn.addEventListener("click", nextQuestion);
 
 function startQuiz() {
@@ -92,12 +92,12 @@ function nextQuestion() {
     if (currentQuestion < questions.length) {
         loadQuestion();
     } else {
-        endQuiz();
+        restartQuiz();
     }
 }
 
-function endQuiz() {
-    quizContainer.classList.add("hidden");
-    quizEnd.classList.remove("hidden");
+function restartQuiz() {
+    quizEnd.classList.add("hidden");
+    quizStart.classList.remove("hidden");
     currentQuestion = 0;
 }
