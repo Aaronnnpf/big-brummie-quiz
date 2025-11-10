@@ -92,8 +92,13 @@ function nextQuestion() {
     if (currentQuestion < questions.length) {
         loadQuestion();
     } else {
-        restartQuiz();
+        endQuiz();
     }
+}
+
+function endQuiz() {
+    quizContainer.classList.add("hidden");
+    quizEnd.classList.remove("hidden");
 }
 
 function restartQuiz() {
