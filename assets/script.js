@@ -46,10 +46,6 @@ const questionElement1 = document.getElementById("question");
 const cardContainer = document.getElementById("card-container");
 const feedbackElement1 = document.getElementById("feedback");
 
-startBtn.addEventListener("click", startQuiz);
-endBtn.addEventListener("click", restartQuiz);
-nextBtn.addEventListener("click", nextQuestion);
-
 function startQuiz() {
     quizStart.classList.add("hidden");
     quizContainer.classList.remove("hidden");
@@ -106,3 +102,7 @@ function restartQuiz() {
     quizStart.classList.remove("hidden");
     currentQuestion = 0;
 }
+
+startBtn.addEventListener("click", startQuiz);
+endBtn.addEventListener("click", restartQuiz);
+nextBtn.addEventListener("click", nextQuestion);
