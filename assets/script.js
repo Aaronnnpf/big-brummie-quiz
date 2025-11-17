@@ -1,4 +1,7 @@
 // sitepoint was used to aid in my question creation //
+/**
+ * These are the questions for my quiz
+ */
 const questions = [
 {
     question: "What one of these site's in Birmingham gave inspiration to J.R.R. Tolkien for The Lord Of The Rings?",
@@ -34,14 +37,23 @@ const questions = [
 
 let currentQuestion = 0;
 
+/**
+ * This function fetchs my quiz ready for it to start and end
+ */
 const quizStart = document.getElementById("quiz-start");
 const quizContainer = document.getElementById("quiz-container");
 const quizEnd = document.getElementById("quiz-end");
 
+/**
+ * these are my buttons for my quiz
+ */
 const startBtn = document.getElementById("start-btn");
 const endBtn = document.getElementById("end-btn");
 const nextBtn = document.getElementById("next-btn");
 
+/**
+ * this function updates the UI depending on answer, gives feedback and updates the question
+ */
 const questionElement1 = document.getElementById("question");
 const cardContainer = document.getElementById("card-container");
 const feedbackElement1 = document.getElementById("feedback");
@@ -103,6 +115,8 @@ function restartQuiz() {
     currentQuestion = 0;
 }
 
-startBtn.addEventListener("click", startQuiz);
-endBtn.addEventListener("click", restartQuiz);
-nextBtn.addEventListener("click", nextQuestion);
+function btnEventListeners() {
+    startBtn.addEventListener("click", startQuiz);
+    endBtn.addEventListener("click", restartQuiz);
+    nextBtn.addEventListener("click", nextQuestion);
+}
