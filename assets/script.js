@@ -39,6 +39,7 @@ const questions = [
  * This function is my timer
  */
 let timeLeft = 45;
+let timerInterval;
 const timerE1 = document.getElementById("timer");
 const scoreDisplay = document.getElementById("score"); 
 
@@ -122,13 +123,14 @@ function selectAnswer(index, card) {
     if (index === q.correct) {
         card.classList.add("correct");
         feedbackElement1.textContent = "Correct";
+        score++;
+        nextBtn.classList.remove("hidden");
     } else {
         card.classList.add("wrong");
         feedbackElement1.textContent = "Wrong, Try Again"
     };
 
     if (scoreDisplay) scoreDisplay.textContent = `Score: ${score}`;
-    nextBtn.classList.remove("hidden");
 }
 
 function nextQuestion() {
