@@ -35,6 +35,31 @@ const questions = [
 }
 ];
 
+/**
+ * This function is my timer
+ */
+let timeLeft = 20;
+let timerInterval;
+const timerE1 = document.getElementById(""); 
+
+/**
+ * this function ends the quiz if the timer hits 0 seconds
+ */
+function startTimer() {
+    timerInterval = setInterval(() => {
+        timeLeft--;
+        timerE1.textContent = `Time Left: ${timeLeft}Seconds`;
+
+        if (timeLeft <= 0) {
+            clearInterval(timerInterval);
+            endQuiz();
+        }
+    }, 1000);
+}
+
+/**
+ * This fetchs the first question of the quiz 
+ * */
 let currentQuestion = 0;
 
 /**
@@ -61,6 +86,10 @@ const feedbackElement1 = document.getElementById("feedback");
 function startQuiz() {
     quizStart.classList.add("hidden");
     quizContainer.classList.remove("hidden");
+
+    timeLeft = 20;
+    timerE1.textContent = `Time Left: ${timeLeft}seconds`;
+    startTimer();
     loadQuestion();
 }
 
