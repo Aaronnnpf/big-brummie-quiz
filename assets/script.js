@@ -58,9 +58,12 @@ function startTimer() {
 }
 
 /**
- * This fetchs the first question of the quiz 
+ * This fetchs the first question of the quiz and start the timer and score keeper
  * */
 let currentQuestion = 0;
+let score = 0;
+let timeLeft = 20;
+let timerInterval;
 
 /**
  * This function fetchs my quiz ready for it to start and end
