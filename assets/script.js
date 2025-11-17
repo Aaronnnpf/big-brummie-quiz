@@ -38,7 +38,7 @@ const questions = [
 /**
  * This function is my timer
  */
-let timeLeft = 20;
+let timeLeft = 45;
 const timerE1 = document.getElementById("timer");
 const scoreDisplay = document.getElementById("score"); 
 
@@ -62,7 +62,6 @@ function startTimer() {
  * */
 let currentQuestion = 0;
 let score = 0;
-let timeLeft = 20;
 
 /**
  * This function fetchs my quiz ready for it to start and end
@@ -91,7 +90,7 @@ function startQuiz() {
 
     currentQuestion = 0;
     score = 0;
-    timeLeft = 20;
+    timeLeft = 45;
     timerE1.textContent = `Time Left: ${timeLeft} Seconds`;
     if (scoreDisplay) scoreDisplay.textContent = `Score: ${score}`;
 
@@ -159,7 +158,7 @@ function restartQuiz() {
     quizEnd.classList.add("hidden");
     quizStart.classList.remove("hidden");
 
-    timeLeft = 20;
+    timeLeft = 45;
     timerE1.textContent = `Time left: ${timeLeft}`;
 
     currentQuestion = 0;
