@@ -40,7 +40,8 @@ const questions = [
  */
 let timeLeft = 20;
 let timerInterval;
-const timerE1 = document.getElementById(""); 
+const timerE1 = document.getElementById("timer");
+const scoreDisplay = document.getElementById("score"); 
 
 /**
  * this function ends the quiz if the timer hits 0 seconds
@@ -48,7 +49,7 @@ const timerE1 = document.getElementById("");
 function startTimer() {
     timerInterval = setInterval(() => {
         timeLeft--;
-        timerE1.textContent = `Time Left: ${timeLeft}Seconds`;
+        timerE1.textContent = `Time Left: ${timeLeft} Seconds`;
 
         if (timeLeft <= 0) {
             clearInterval(timerInterval);
@@ -92,7 +93,7 @@ function startQuiz() {
 
     currentQuestion = 0;
     timeLeft = 20;
-    timerE1.textContent = `Time Left: ${timeLeft}seconds`;
+    timerE1.textContent = `Time Left: ${timeLeft} Seconds`;
     startTimer();
     loadQuestion();
 }
@@ -164,3 +165,5 @@ function btnEventListeners() {
     endBtn.addEventListener("click", restartQuiz);
     nextBtn.addEventListener("click", nextQuestion);
 }
+
+btnEventListeners();
