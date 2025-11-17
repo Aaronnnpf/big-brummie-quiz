@@ -39,7 +39,6 @@ const questions = [
  * This function is my timer
  */
 let timeLeft = 20;
-let timerInterval;
 const timerE1 = document.getElementById("timer");
 const scoreDisplay = document.getElementById("score"); 
 
@@ -64,7 +63,6 @@ function startTimer() {
 let currentQuestion = 0;
 let score = 0;
 let timeLeft = 20;
-let timerInterval;
 
 /**
  * This function fetchs my quiz ready for it to start and end
@@ -92,8 +90,11 @@ function startQuiz() {
     quizContainer.classList.remove("hidden");
 
     currentQuestion = 0;
+    score = 0;
     timeLeft = 20;
     timerE1.textContent = `Time Left: ${timeLeft} Seconds`;
+    if (scoreDisplay) scoreDisplay.textContent = `Score: ${score}`;
+
     startTimer();
     loadQuestion();
 }
@@ -126,6 +127,8 @@ function selectAnswer(index, card) {
         card.classList.add("wrong");
         feedbackElement1.textContent = "Wrong, Try Again"
     };
+
+    if (scoreDisplay) scoreDisplay.textContent = `Score: ${score}`;
     nextBtn.classList.remove("hidden");
 }
 
@@ -144,6 +147,8 @@ function endQuiz() {
     clearInterval(timerInterval);
     quizContainer.classList.add("hidden");
     quizEnd.classList.remove("hidden");
+
+    if (scoreDisplay) scoreDisplay.textContent = `Final score: ${score}`;
 }
 
 /**
