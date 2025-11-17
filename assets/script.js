@@ -87,6 +87,7 @@ function startQuiz() {
     quizStart.classList.add("hidden");
     quizContainer.classList.remove("hidden");
 
+    currentQuestion = 0;
     timeLeft = 20;
     timerE1.textContent = `Time Left: ${timeLeft}seconds`;
     startTimer();
@@ -134,6 +135,7 @@ function nextQuestion() {
 }
 
 function endQuiz() {
+    clearInterval(timerInterval);
     quizContainer.classList.add("hidden");
     quizEnd.classList.remove("hidden");
 }
