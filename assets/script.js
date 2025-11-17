@@ -84,6 +84,7 @@ const nextBtn = document.getElementById("next-btn");
 const questionElement1 = document.getElementById("question");
 const cardContainer = document.getElementById("card-container");
 const feedbackElement1 = document.getElementById("feedback");
+const finalScore = document.getElementById("final-score");
 
 function startQuiz() {
     quizStart.classList.add("hidden");
@@ -149,7 +150,7 @@ function endQuiz() {
     quizContainer.classList.add("hidden");
     quizEnd.classList.remove("hidden");
 
-    if (scoreDisplay) scoreDisplay.textContent = `Final score: ${score}`;
+    if (finalScore) finalScore.textContent = `Final score: ${score}`;
 }
 
 /**
@@ -161,7 +162,7 @@ function restartQuiz() {
     quizStart.classList.remove("hidden");
 
     timeLeft = 45;
-    timerE1.textContent = `Time left: ${timeLeft}`;
+    timerE1.textContent = `Time Left: ${timeLeft}`;
 
     currentQuestion = 0;
 }
