@@ -133,16 +133,26 @@ function nextQuestion() {
         endQuiz();
     }
 }
-
+/**
+ * this function end the quiz and the timer 
+ */
 function endQuiz() {
     clearInterval(timerInterval);
     quizContainer.classList.add("hidden");
     quizEnd.classList.remove("hidden");
 }
 
+/**
+ * this function restarts the quiz once ended and  also restarts the timer
+ */
 function restartQuiz() {
+    clearInterval(timerInterval);
     quizEnd.classList.add("hidden");
     quizStart.classList.remove("hidden");
+
+    timeLeft = 20;
+    timerE1.textContent = `Time left: ${timeLeft}`;
+
     currentQuestion = 0;
 }
 
