@@ -90,6 +90,11 @@ function startQuiz() {
     quizStart.classList.add("hidden");
     quizContainer.classList.remove("hidden");
 
+    /**
+     * This part of the function will hide my intro paragraph when the quiz begins
+     */
+    document.getElementById("intro").classList.add("hidden");
+
     currentQuestion = 0;
     score = 0;
     timeLeft = 45;
