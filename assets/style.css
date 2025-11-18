@@ -31,6 +31,20 @@ h1 {
     width: 100%;
     background:url("../assets/images/libary.jpg") no-repeat center center/cover;
     position: relative;
+    font-size: 3rem;
+    z-index: 2;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
+}
+
+h1::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.55);
+}
+
+#heading h1 {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
 }
 
 h2 {
