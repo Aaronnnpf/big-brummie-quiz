@@ -44,7 +44,7 @@ const timerE1 = document.getElementById("timer");
 const scoreDisplay = document.getElementById("score"); 
 
 /**
- * this function ends the quiz if the timer hits 0 seconds
+ * This function ends the quiz if the timer hits 0 seconds
  */
 function startTimer() {
     timerInterval = setInterval(() => {
@@ -72,14 +72,14 @@ const quizContainer = document.getElementById("quiz-container");
 const quizEnd = document.getElementById("quiz-end");
 
 /**
- * these are my buttons for my quiz
+ * These are my buttons for my quiz
  */
 const startBtn = document.getElementById("start-btn");
 const endBtn = document.getElementById("end-btn");
 const nextBtn = document.getElementById("next-btn");
 
 /**
- * this function updates the UI depending on answer, gives feedback and updates the question
+ * This function updates the UI depending on answer, gives feedback and updates the question
  */
 const questionElement1 = document.getElementById("question");
 const cardContainer = document.getElementById("card-container");
@@ -159,7 +159,7 @@ function nextQuestion() {
     }
 }
 /**
- * this function end the quiz and the timer 
+ * This function end the quiz and the timer 
  */
 function endQuiz() {
     clearInterval(timerInterval);
@@ -170,7 +170,7 @@ function endQuiz() {
 }
 
 /**
- * this function restarts the quiz once ended and  also restarts the timer
+ * This function restarts the quiz once ended and  also restarts the timer
  */
 function restartQuiz() {
     clearInterval(timerInterval);
@@ -184,7 +184,7 @@ function restartQuiz() {
 }
 
 /**
- * THis function houses my button event listeners
+ * This function houses my button event listeners
  */
 function btnEventListeners() {
     startBtn.addEventListener("click", startQuiz);
