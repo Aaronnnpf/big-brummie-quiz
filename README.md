@@ -15,6 +15,22 @@ Its purpose is to test visitors knowledge on one of the UK's major cities, addin
 * As a first time user, I want to be able learn from the quiz.
 * As a first time user, I want to be able to read alittle about the city. 
 
+2. ### Returning user goals
+* As
+* As
+* As
+
+3. ### Frequent user goals
+* As
+* As
+* As
+
+## Design
+
+### Colour Scheme
+
+### Typography
+
 # big-brummie-quiz
 My 2nd Code institute project.
 central library photo from https://unsplash.com/s/photos/birmingham-uk credit to Brian Lewicki
