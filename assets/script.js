@@ -105,6 +105,10 @@ function startQuiz() {
     loadQuestion();
 }
 
+
+/**
+ * This function loads the next question in the sequance i have made at the top
+ */
 function loadQuestion() {
     const q = questions[currentQuestion];
     questionElement1.textContent = q.question;
@@ -121,6 +125,10 @@ function loadQuestion() {
     });
 }
 
+
+/**
+ * This function collects the data for the answer to the question and feeds back right or wrong and adds to the score if correct and unlocking the next question button
+ */
 function selectAnswer(index, card) {
     const q = questions[currentQuestion];
     const cards = document.querySelectorAll(".card");
@@ -139,6 +147,9 @@ function selectAnswer(index, card) {
     if (scoreDisplay) scoreDisplay.textContent = `Score: ${score}`;
 }
 
+/**
+ * This function loads the next question when the button is pressed and once all questions are answered loads the end quiz screen
+ */
 function nextQuestion() {
     currentQuestion++;
     if (currentQuestion < questions.length) {
@@ -172,6 +183,9 @@ function restartQuiz() {
     currentQuestion = 0;
 }
 
+/**
+ * THis function houses my button event listeners
+ */
 function btnEventListeners() {
     startBtn.addEventListener("click", startQuiz);
     endBtn.addEventListener("click", restartQuiz);
