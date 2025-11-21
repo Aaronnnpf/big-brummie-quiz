@@ -34,9 +34,12 @@ Its purpose is to test visitors knowledge on one of the UK's major cities, addin
 
 ![colour palette](https://github.com/Aaronnnpf/big-brummie-quiz/blob/main/docs/readme/colours.png "colour palette")
 
-### Colour Scheme
-
 ### Typography
+* The fonts used in this project are Roboto Condensed and Noto Sans.
+
+![Roboto condensed]("roboto condensed")
+
+![Noto sans]("noto sans")
 
 # big-brummie-quiz
 My 2nd Code institute project.
