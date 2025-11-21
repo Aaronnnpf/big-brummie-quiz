@@ -32,6 +32,8 @@ Its purpose is to test visitors knowledge on one of the UK's major cities, addin
 * White #ffffff
 * Light sky blue #87cefa
 
+![colour palette]("colour palette")
+
 ### Colour Scheme
 
 ### Typography
