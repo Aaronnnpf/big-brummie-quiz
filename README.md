@@ -37,9 +37,9 @@ Its purpose is to test visitors knowledge on one of the UK's major cities, addin
 ### Typography
 * The fonts used in this project are Roboto Condensed and Noto Sans.
 
-![Roboto condensed]("roboto condensed")
+![Roboto condensed](https://github.com/Aaronnnpf/big-brummie-quiz/blob/main/docs/readme/roboto-condensed.png "roboto condensed")
 
-![Noto sans]("noto sans")
+![Noto sans](https://github.com/Aaronnnpf/big-brummie-quiz/blob/main/docs/readme/noto-sans.png "noto sans")
 
 # big-brummie-quiz
 My 2nd Code institute project.
