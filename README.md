@@ -16,16 +16,21 @@ Its purpose is to test visitors knowledge on one of the UK's major cities, addin
 * As a first time user, I want to be able to read alittle about the city. 
 
 2. ### Returning user goals
-* As
-* As
-* As
+* As a returning user, I want to see if i can increase my score and show i have learnt more.
+* As a returning user, I want to expand upon my knowledge of the city.
+* As a returning user, I want to enjoy the quiz and keep it as user friendly as possible.
 
 3. ### Frequent user goals
-* As
-* As
-* As
+* As a frequent user, I want to 
+* As a frequent user, I want to
+* As a frequent user, I want to
 
 ## Design
+### Colour Scheme
+* The main colour scheme was Black, White and Light Sky Blue
+* Black #000000
+* White #ffffff
+* Light sky blue #87cefa
 
 ### Colour Scheme
 
