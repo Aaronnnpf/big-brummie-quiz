@@ -32,7 +32,7 @@ Its purpose is to test visitors knowledge on one of the UK's major cities, addin
 * White #ffffff
 * Light sky blue #87cefa
 
-![colour palette] (https://github.com/Aaronnnpf/big-brummie-quiz/blob/main/docs/readme/colours.png "colour palette")
+![colour palette](https://github.com/Aaronnnpf/big-brummie-quiz/blob/main/docs/readme/colours.png "colour palette")
 
 ### Colour Scheme
 
