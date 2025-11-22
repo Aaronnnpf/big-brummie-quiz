@@ -17,23 +17,27 @@ body {
     justify-content: center;
     margin: 0;
     padding: 0;
-    background-color: lightskyblue;
+    background-color: #87cefa;
     align-items: center;
     flex-direction: column;
 }
 
 h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
     font-family: var(--primary-font);
-    color: var(--primary-color);
+    color: white;
     text-transform: capitalize;
     text-align: center;
     height: 250px;
     width: 100%;
-    background:url("../assets/images/libary.jpg") no-repeat center center/cover;
+    background:url("../assets/images/canal.jpg") no-repeat center center/cover;
     position: relative;
-    font-size: 3rem;
+    font-size: 4rem;
     z-index: 2;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
 }
 
 h1::before {
