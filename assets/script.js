@@ -132,9 +132,9 @@ function loadQuestion() {
 function selectAnswer(index, card) {
     const q = questions[currentQuestion];
     const cards = document.querySelectorAll(".card");
-    cards.forEach(c => c.classList.add("disabled"));
 
     if (index === q.correct) {
+        cards.forEach(c => c.classList.add("disabled"));
         card.classList.add("correct");
         feedbackElement1.textContent = "Correct";
         score++;
