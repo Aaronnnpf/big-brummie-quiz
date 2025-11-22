@@ -21,9 +21,9 @@ Its purpose is to test visitors knowledge on one of the UK's major cities, addin
 * As a returning user, I want to enjoy the quiz and keep it as user friendly as possible.
 
 3. ### Frequent user goals
-* As a frequent user, I want to 
-* As a frequent user, I want to
-* As a frequent user, I want to
+* As a frequent user, I want to be able to test my self and friends and femily and compare scores.
+* As a frequent user, I want to complete the quiz as quick as i can.
+* As a frequent user, I want to remind myself of what the city has had to offer. 
 
 ## Design
 ### Colour Scheme
@@ -41,6 +41,36 @@ Its purpose is to test visitors knowledge on one of the UK's major cities, addin
 
 ![Noto sans](https://github.com/Aaronnnpf/big-brummie-quiz/blob/main/docs/readme/noto-sans.png "noto sans")
 
+## Imagery
+
+## Wireframes
+
+## Frameworks, Libaries and Programs
+
+## Testing
+* Extensive manual testing was done throughout the project 
+
+### Devtools
+
+### Validator Testing
+
+### Futher Testing 
+
+## Bugs
+
+### Known bugs
+
+### Fixed bugs
+
+## Testing user experiance (UX)
+
+## Development process
+
+## Deployment
+
+## Credits
+### Code
+### Acknowledgements
 # big-brummie-quiz
 My 2nd Code institute project.
 central library photo from https://unsplash.com/s/photos/birmingham-uk credit to Brian Lewicki
