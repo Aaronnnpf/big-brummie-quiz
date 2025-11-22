@@ -150,3 +150,11 @@ button {
 .hidden {
     display: none;
 }
+
+@media (max-width: 400px) {
+
+    .card-container {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+}
