@@ -76,6 +76,21 @@ I went slightly off script to my wireframes to include and intro paragraph where
 
 ## Frameworks, Libaries and Programs
 
+1. [Bootstrap 5.3](https://getbootstrap.com/)
+* This was used to assist with the responsiveness and styling of the page.
+2. [Font Awesome](https://fontawesome.com/)
+* Font awesome allowed me to add icons for UX purposes.
+3. [Google Fonts](https://fonts.google.com/)
+* Google fonts allowed me to use fonts across all pages in my project.
+4. jQuery
+* This came with bootstrap and allowed my dropdown to work as it should.
+5. Git
+* This was used to to commit and push my project to github for safe storage.
+6. [Github](https://github.com/) 
+* This was used to store my project and allow it to be deployed.
+7. [Optimizilla](https://imagecompressor.com/)
+* This was used to compress my pictures to allow for better UX.
+
 ## Testing
 * Extensive manual testing was done throughout the project 
 
@@ -84,6 +99,19 @@ I went slightly off script to my wireframes to include and intro paragraph where
 ### Validator Testing
 
 ### Futher Testing 
+I tested this webiste on 
+* Google Chrome
+* Microsoft Edge 
+
+The Webiste was tested on multiple screen sizes including...
+* Iphone 11
+* Iphone 12
+* Samsung Galaxy s22 Ultra
+* Ipad
+* Ipad Air
+* Desktop screen 32" (Msi Mag 32")
+* Desktop Screen 27" (Msi Mag 27")
+* Desktop Screen 25" (Samsung G4)
 
 ## Bugs
 
@@ -96,6 +124,16 @@ I went slightly off script to my wireframes to include and intro paragraph where
 ## Development process
 
 ## Deployment
+### Github Pages
+The project was deployed using the following steps.
+
+1. Log in to [Github](https://github.com/) and locate the [Github Repoisitory](https://github.com/Aaronnnpf/restaurant-project).
+2. At the top of the Repoisitory, Locate the "Settings" button.
+3. Scroll down the settings page and locate "Github Pages".
+4. Under "Source", Click the drop down option called "None" and select "Main Branch".
+5. The page will automatically refresh.
+6. Scroll down and locate the published site link in the "Github pages" section. 
+7. Click the [link](https://github.com/Aaronnnpf/restaurant-project/deployments/github-pages) to launch the live version of the site.
 
 ## Credits
 ### Code
