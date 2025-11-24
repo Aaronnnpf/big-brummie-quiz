@@ -1,7 +1,7 @@
 # Milestone project 2
 [My Project Link](https://aaronnnpf.github.io/big-brummie-quiz/)
 
-![Site on different screen sizes]( "Different screen sizes")
+![Site on different screen sizes](https://github.com/Aaronnnpf/big-brummie-quiz/blob/main/docs/readme/responsive.png "Different screen sizes")
 
 ## Introduction
 This is a website I have built for a Birmingham based quiz, I have built this project using HTML, CSS and JavaScript, It allows the website to be easily navigated and for the quiz to function as intended across different screen sizes.
