@@ -43,6 +43,19 @@ Its purpose is to test visitors knowledge on one of the UK's major cities, addin
 
 ## Imagery
 
+[Unsplash](https://unsplash.com/) : Unpslash images have been used to in the project to show a part of Birmingham.
+
+* Hero Image:
+
+![Hero](https://github.com/Aaronnnpf/big-brummie-quiz/blob/main/assets/images/canal.jpg "Hero Image")
+
+This image was chosen to represent a part of Birmingham that trully sums up the heart of the city. 
+
+* Icon: 
+![Icon](https://github.com/Aaronnnpf/big-brummie-quiz/blob/main/assets/images/quiz.png "Icon Image")
+
+Identifies what kind of page it is, In this case a Quiz.
+
 ## Wireframes
 
 ## Frameworks, Libaries and Programs
