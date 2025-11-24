@@ -52,12 +52,15 @@ Its purpose is to test visitors knowledge on one of the UK's major cities, addin
 This image was chosen to represent a part of Birmingham that trully sums up the heart of the city. 
 
 * Icon: 
+
 ![Icon](https://github.com/Aaronnnpf/big-brummie-quiz/blob/main/assets/images/quiz.png "Icon Image")
 
 Identifies what kind of page it is, In this case a Quiz.
 
 ## Wireframes
 All wireframes were created using [balsamiq](https://balsamiq.com/) 
+
+I went slightly off script to my wireframes to include and intro paragraph where the heading was originally going to go, so that i could expand alittle futher on the page as to why I decided to choose Birmingham as the topic and also give some information in regards to the city I call home, By doing this is it also ment moving the heading of the page up on top of the hero image.
 
 * Big Brummie Quiz Desktop
 
