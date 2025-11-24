@@ -60,12 +60,15 @@ Identifies what kind of page it is, In this case a Quiz.
 All wireframes were created using [balsamiq](https://balsamiq.com/) 
 
 * Big Brummie Quiz Desktop
+
 ![Desktop](https://github.com/Aaronnnpf/big-brummie-quiz/blob/main/docs/wireframes/desktop-wireframe.png "Desktop wireframe")
 
 * Big Brummie Quiz Tablet
+
 ![Tablet](https://github.com/Aaronnnpf/big-brummie-quiz/blob/main/docs/wireframes/tablet-wireframe.png "Tablet Wireframe")
 
 * Big Brummie Quiz Mobile
+
 ![Mobile](https://github.com/Aaronnnpf/big-brummie-quiz/blob/main/docs/wireframes/mobile-wireframe.png "Mobile Wireframe")
 
 ## Frameworks, Libaries and Programs
