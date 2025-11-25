@@ -106,9 +106,11 @@ I went slightly off script to my wireframes to include and intro paragraph where
 Using Lighthouse on my project allowed me to collect the following for the performance of my site. 
 
 Desktop results: 
+
 ![Desktop](https://github.com/Aaronnnpf/big-brummie-quiz/blob/main/docs/lighthouse/lighthouse-desktop.png)
 
 Mobile results:
+
 ![Mobile](https://github.com/Aaronnnpf/big-brummie-quiz/blob/main/docs/lighthouse/lighthouse-desktop.png)
 
 ## Validator Testing
