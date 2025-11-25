@@ -111,7 +111,7 @@ Desktop results:
 
 Mobile results:
 
-![Mobile](https://github.com/Aaronnnpf/big-brummie-quiz/blob/main/docs/lighthouse/lighthouse-desktop.png)
+![Mobile](https://github.com/Aaronnnpf/big-brummie-quiz/blob/main/docs/lighthouse/lighthouse-mobile.png)
 
 ## Validator Testing
 [WC3](https://validator.w3.org/) Was used to Validate my Markup.
