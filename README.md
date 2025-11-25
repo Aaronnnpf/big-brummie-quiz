@@ -74,6 +74,11 @@ I went slightly off script to my wireframes to include and intro paragraph where
 
 ![Mobile](https://github.com/Aaronnnpf/big-brummie-quiz/blob/main/docs/wireframes/mobile-wireframe.png "Mobile Wireframe")
 
+## Technologies used
+* HTML5 [Link](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* CSS3 [Link](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* JavaScript [Link](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
 ## Frameworks, Libaries and Programs
 
 1. [Bootstrap 5.3](https://getbootstrap.com/)
