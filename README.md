@@ -96,7 +96,7 @@ I went slightly off script to my wireframes to include and intro paragraph where
 7. [Optimizilla](https://imagecompressor.com/)
 * This was used to compress my pictures to allow for better UX.
 8. [Squoosh](https://squoosh.app/)
-* THis was used to adjust the pixel size of mny image to allows for better loading and UX. 
+* This was used to adjust the pixel size of mny image to allows for better loading and UX. 
 
 ## Testing
 * Extensive manual testing was done throughout the project 
