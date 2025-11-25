@@ -95,13 +95,35 @@ I went slightly off script to my wireframes to include and intro paragraph where
 * This was used to store my project and allow it to be deployed.
 7. [Optimizilla](https://imagecompressor.com/)
 * This was used to compress my pictures to allow for better UX.
+8. [Squoosh](https://squoosh.app/)
+* THis was used to adjust the pixel size of mny image to allows for better loading and UX. 
 
 ## Testing
 * Extensive manual testing was done throughout the project 
 
 ### Devtools
 
-### Validator Testing
+Using Lighthouse on my project allowed me to collect the following for the performance of my site. 
+
+Desktop results: 
+![Desktop]()
+
+Mobile results:
+![Mobile]()
+
+## Validator Testing
+[WC3](https://validator.w3.org/) Was used to Validate my Markup.
+
+![view](https://github.com/Aaronnnpf/big-brummie-quiz/blob/main/docs/validation/html-validation.png "HTML Validation")
+
+[W3C](https://jigsaw.w3.org/css-validator/) Was used to Validate my CSS.
+
+![view](https://github.com/Aaronnnpf/big-brummie-quiz/blob/main/docs/validation/css-validation.png "CSS Validation")
+
+[JShint](https://jshint.com/) Was used to validate my JaveScript.
+
+![view](https://github.com/Aaronnnpf/big-brummie-quiz/blob/main/docs/validation/JS-validation.png "JavaSCript Validation")
+
 
 ### Futher Testing 
 I tested this webiste on 
