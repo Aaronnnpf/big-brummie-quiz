@@ -33,6 +33,7 @@ Its purpose is to test visitors knowledge on one of the UK's major cities, addin
 * Light sky blue #87cefa
 * Light sea green #20b2aa
 * Dark red #7e0000ff
+
 ![colour palette](https://github.com/Aaronnnpf/big-brummie-quiz/blob/main/docs/readme/colours.png "colour palette")
 
 ### Typography
