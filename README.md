@@ -165,12 +165,12 @@ The Webiste was tested on multiple screen sizes including...
 1. As a first time user, I want to be able to access the quiz with ease.
 * Upon entering the site, I can see clearly stated the start quiz button and a message above stating "Click here to begin quiz!".
 
-![Quiz]( "Quiz Start")
+![Quiz](https://github.com/Aaronnnpf/big-brummie-quiz/blob/main/docs/readme/quiz-start.png "Quiz Start")
 
 2. As a first time user, I want to be able learn from the quiz.
 * Upon entering the site there is a intro paragraph about the city detailing the some of the attractions, the Quiz also features a "correct only continuation" so wrong answers pause any progress in the quiz, allowing for multiple selection unti lthe correct answer is discovered before being allowed to progress with the quiz.
 
-![Question]( "Continuation")
+![Question](https://github.com/Aaronnnpf/big-brummie-quiz/blob/main/docs/readme/continuation.png "Continuation")
 
 ## Development process
 
