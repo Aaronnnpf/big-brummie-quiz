@@ -146,9 +146,27 @@ The Webiste was tested on multiple screen sizes including...
 
 ### Known bugs
 
+* My contrast was not good between my original hero image and my primary font colour.
+* The disabled function for my buttons does not work as intended.
+* The intro paragraph does not reappear unless the page is refreshed.
+
 ### Fixed bugs
 
+* Changed hero image to allow for a better contrast between color and image on top the page.
+* The end of the quiz showed "wrong answer Try again" message when the quiz was over. 
+* Hero image would zoom all the way in on smaller screen sizes.
+* The font size for the boxes was too big causing it to flow out of the answer boxes.
+
+
 ## Testing user experiance (UX)
+
+* First time user goals.
+
+1. As a first time user, I want to be able to access the quiz with ease.
+* Upon entering the site, I can see clearly stated the start quiz button.
+
+2.As a first time user, I want to be able learn from the quiz.
+* Upon entering the site there is a intro paragraph about the city detailing the some of the attractions, the Quiz also features a "correct only continuation" so wrong answers pause any progress in the quiz, allowing for multiple selection unti lthe correct answer is discovered before being allowed to progress with the quiz, leaving the user at the mercy of the timer. 
 
 ## Development process
 
