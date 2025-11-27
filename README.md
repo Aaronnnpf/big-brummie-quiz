@@ -21,7 +21,7 @@ Its purpose is to test visitors knowledge on one of the UK's major cities, addin
 * As a returning user, I want to enjoy the quiz and keep it as user friendly as possible.
 
 3. ### Frequent user goals
-* As a frequent user, I want to be able to test my self and friends and family and compare scores.
+* As a frequent user, I want to be able to test myself, friends and family and be able to compare scores.
 * As a frequent user, I want to complete the quiz as quick as i can.
 * As a frequent user, I want to remind myself of what the city has had to offer. 
 
@@ -192,7 +192,7 @@ The Webiste was tested on multiple screen sizes including...
 
 * Frequent user goals
 
-1. As a frequent user, I want to be able to test my self and friends and family and compare scores. 
+1. As a frequent user, I want to be able to test myself, friends and family and be able to compare scores. 
 * 
 
 2. As a frequent user, I want to complete the quiz as quick as i can.
