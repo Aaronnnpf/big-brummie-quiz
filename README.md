@@ -22,7 +22,7 @@ Its purpose is to test visitors knowledge on one of the UK's major cities, addin
 
 3. ### Frequent user goals
 * As a frequent user, I want to be able to test myself, friends and family and be able to compare scores.
-* As a frequent user, I want to complete the quiz as quick as i can.
+* As a frequent user, I want to complete the quiz as quickly as I can.
 * As a frequent user, I want to remind myself of what the city has had to offer. 
 
 ## Design
@@ -192,18 +192,20 @@ The Webiste was tested on multiple screen sizes including...
 ![recommendation](https://github.com/Aaronnnpf/big-brummie-quiz/blob/main/docs/readme/answers.png "Recommendation")
 
 3. As a returning user, I want to enjoy the quiz and keep it as user friendly as possible.
-* 
+* The quiz is easily accessible. The page is clear and uncluttered, and answersare distinctly colour-coded. The quiz presents a blanced mix of general knowledge and local knowledge questions. Both types promote knowledge acquisition and an enjoyable learning experience.
+
+![page]( "Page")
 
 * Frequent user goals
 
 1. As a frequent user, I want to be able to test myself, friends and family and be able to compare scores. 
-* 
+* The score system combined with the competitive timer allows for an accurate representation of what was achieved in the quiz allowing for competetive score sharing amongst friends and family alike.
 
-2. As a frequent user, I want to complete the quiz as quick as i can.
-* 
+2. As a frequent user, I want to complete the quiz as quickly as I can.
+* The built in timer function will allow for users to be able to compete for shorter completion times.
 
-3. As a frequent user, I want to remind myself of what the city has had to offer.
-* 
+3. As a frequent user, I want to remind myself of what the city has to offer.
+* The quiz questions and intro paragraph allow for recommendations for the city of Birmingham and points of interest to visit whie touring the city.
 
 ## Development process
 
