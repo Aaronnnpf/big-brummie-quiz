@@ -238,5 +238,5 @@ The project was deployed using the following steps.
 * Code for end game was from [Stackoverflow](https://stackoverflow.com/questions/73477591/end-game-after-last-question-has-been-answered).
 
 ### Acknowledgements
-* * Huge thanks to Rory my Mentor for advice given through out the project.
+* Huge thanks to Rory my Mentor for advice given through out the project.
 
