@@ -141,12 +141,13 @@ function selectAnswer(index, card) {
         nextBtn.classList.remove("hidden");
     } else {
         card.classList.add("wrong");
-        feedbackElement1.textContent = "Wrong, Try Again"
-    };
+        feedbackElement1.textContent = "Wrong, Try Again";
+    }
 
     if (scoreDisplay) scoreDisplay.textContent = `Score: ${score}`;
 }
 
+// Stackoverflow was used to help build this part of my code //
 /**
  * This function loads the next question when the button is pressed and once all questions are answered loads the end quiz screen
  */

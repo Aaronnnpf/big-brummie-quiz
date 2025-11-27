@@ -149,6 +149,8 @@ The Webiste was tested on multiple screen sizes including...
 ### Known bugs
 
 * My contrast was not good between my original hero image and my primary font colour.
+
+![contrast]( "contrast")
 * The disabled function for my buttons does not work as intended.
 * The intro paragraph does not reappear unless the page is refreshed.
 
@@ -158,6 +160,8 @@ The Webiste was tested on multiple screen sizes including...
 * The end of the quiz showed "wrong answer Try again" message when the quiz was over. 
 * Hero image would zoom all the way in on smaller screen sizes.
 * The font size for the boxes was too big causing it to flow out of the answer boxes.
+
+![small screen]( "Small screen")
 
 
 ## Testing user experiance (UX)
@@ -204,8 +208,12 @@ The Webiste was tested on multiple screen sizes including...
 2. As a frequent user, I want to complete the quiz as quickly as I can.
 * The built in timer function will allow for users to be able to compete for shorter completion times.
 
+![Score and timer](https://github.com/Aaronnnpf/big-brummie-quiz/blob/main/docs/readme/score-timer.png "Score and timer")
+
 3. As a frequent user, I want to remind myself of what the city has to offer.
 * The quiz questions and intro paragraph allow for recommendations for the city of Birmingham and points of interest to visit whie touring the city.
+
+![Locations](https://github.com/Aaronnnpf/big-brummie-quiz/blob/main/docs/readme/answers.png "Locations")
 
 ## Development process
 
@@ -223,15 +231,10 @@ The project was deployed using the following steps.
 
 ## Credits
 ### Code
+* Image taken from [Unsplash](https://unsplash.com/photos/a-body-of-water-with-buildings-along-it-AsNXE5bbr_Q) Credit to Stefonos Nt
+* Icon taken from [flaticon](https://www.flaticon.com/free-icon/quiz_5677910?term=quiz&page=1&position=10&origin=search&related_id=5677910)
+* image compression was done with [Squoosh](https://squoosh.app/)
+* Code for questions was from [Sitepoint](https://www.sitepoint.com/simple-javascript-quiz/) Credit to Yaphi Berhanu
+* Code for end game was from [Stackoverflow](https://stackoverflow.com/questions/73477591/end-game-after-last-question-has-been-answered)
 ### Acknowledgements
-# big-brummie-quiz
-My 2nd Code institute project.
-central library photo from https://unsplash.com/s/photos/birmingham-uk credit to Brian Lewicki
-squoosh used to compress images
-central library is at (1350x773) recommended using lighthouse for improved image delivery
-https://www.flaticon.com/free-icon/quiz_5677910?term=quiz&page=1&position=10&origin=search&related_id=5677910 for the icon used 
-https://www.sitepoint.com/simple-javascript-quiz/ was used to aid in the creation of my questions in my quiz 
-https://stackoverflow.com/questions/73491988/how-to-make-a-single-submit-button-for-a-quiz-app-instead-of-making-each-individ was used to help build the JS for quiz
-https://stackoverflow.com/questions/73477591/end-game-after-last-question-has-been-answered
-https://www.w3schools.com/cssref/sel_before.php - helped resolve the text over image 
 
