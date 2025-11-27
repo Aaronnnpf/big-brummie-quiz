@@ -150,7 +150,7 @@ The Webiste was tested on multiple screen sizes including...
 
 * My contrast was not good between my original hero image and my primary font colour.
 
-![contrast]( "contrast")
+![contrast](https://github.com/Aaronnnpf/big-brummie-quiz/blob/main/docs/readme/image.png "contrast")
 * The disabled function for my buttons does not work as intended.
 * The intro paragraph does not reappear unless the page is refreshed.
 
@@ -221,13 +221,13 @@ The Webiste was tested on multiple screen sizes including...
 ### Github Pages
 The project was deployed using the following steps.
 
-1. Log in to [Github](https://github.com/) and locate the [Github Repoisitory](https://github.com/Aaronnnpf/restaurant-project).
+1. Log in to [Github](https://github.com/) and locate the [Github Repoisitory](https://github.com/Aaronnnpf/big-brummie-quiz).
 2. At the top of the Repoisitory, Locate the "Settings" button.
 3. Scroll down the settings page and locate "Github Pages".
 4. Under "Source", Click the drop down option called "None" and select "Main Branch".
 5. The page will automatically refresh.
 6. Scroll down and locate the published site link in the "Github pages" section. 
-7. Click the [link](https://github.com/Aaronnnpf/restaurant-project/deployments/github-pages) to launch the live version of the site.
+7. Click the [link](https://github.com/Aaronnnpf/big-brummie-quiz/deployments/github-pages) to launch the live version of the site.
 
 ## Credits
 ### Code
