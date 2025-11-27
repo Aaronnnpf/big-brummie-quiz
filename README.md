@@ -170,9 +170,12 @@ The Webiste was tested on multiple screen sizes including...
 ![Quiz](https://github.com/Aaronnnpf/big-brummie-quiz/blob/main/docs/readme/quiz-start.png "Quiz Start")
 
 2. As a first time user, I want to be able learn from the quiz.
-* Upon entering the site there is a intro paragraph about the city detailing the some of the attractions, the Quiz also features a "correct only continuation" so wrong answers pause any progress in the quiz, allowing for multiple selection unti lthe correct answer is discovered before being allowed to progress with the quiz.
+* Upon entering the site there is an intro paragraph about the city detailing some of the attractions, The quiz also features a "correct only continuation" so wrong answers pause any progress in the quiz, allowing for multiple selection until the correct answer is discovered before being allowed to progress with the quiz.
 
 ![Question](https://github.com/Aaronnnpf/big-brummie-quiz/blob/main/docs/readme/continuation.png "Continuation")
+
+3. As a first time user, I want to be able to read alittle about the city.
+* Upon entering the site, You are greeted with an intro paragraph that explains a litte about Birmingham and gives some historical insights aswell as recommendations to those who may consider visiting.
 
 ## Development process
 
