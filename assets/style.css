@@ -22,6 +22,7 @@ body {
     flex-direction: column;
 }
 
+/* adjusts my h1 heading and image */
 h1 {
     display: flex;
     justify-content: center;
@@ -63,6 +64,7 @@ p {
     color: var(--primary-color)
 }
 
+/* Styles my quiz container fonts, colour and sizes */
 .quiz-container {
     font-family: var(--secondary-font);
     color: var(--primary-color);
@@ -108,8 +110,9 @@ button {
     background: #f0f0f0;
     transform: translateY(-3px);
 }
+
 .card.correct {
-    background:lightseagreen;
+    background:#20b2aa;
     color: #000000;
 }
 
@@ -144,10 +147,12 @@ button {
     margin-bottom: 15px;
 }
 
+/* hides my hidden elements*/
 .hidden {
     display: none;
 }
 
+/* media query for small screens */
 @media (max-width: 400px) {
 
     .card-container {

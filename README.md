@@ -7,23 +7,23 @@
 This is a website I have built for a Birmingham based quiz, I have built this project using HTML, CSS and JavaScript, It allows the website to be easily navigated and for the quiz to function as intended across different screen sizes.
 
 ## Purpose
-Its purpose is to test visitors knowledge on one of the UK's major cities, adding to thre knowledge on the city and learning in the process. 
+Its purpose is to test visitors knowledge on one of the UK's major cities, adding to there knowledge on the city and learning in the process. 
 
 ## User Experience
 1. ### First time users
 * As a first time user, I want to be able access the quiz with ease.
 * As a first time user, I want to be able learn from the quiz.
-* As a first time user, I want to be able to read alittle about the city. 
+* As a first time user, I want to be able to read a little about the city. 
 
 2. ### Returning user goals
-* As a returning user, I want to see if I can increase my score and show i have learnt more.
+* As a returning user, I want to see if I can increase my score and show I have learned more.
 * As a returning user, I want to expand upon my knowledge of the city.
 * As a returning user, I want to enjoy the quiz and keep it as user friendly as possible.
 
 3. ### Frequent user goals
 * As a frequent user, I want to be able to test myself, friends and family and be able to compare scores.
 * As a frequent user, I want to complete the quiz as quickly as I can.
-* As a frequent user, I want to remind myself of what the city has had to offer. 
+* As a frequent user, I want to remind myself of what the city has to offer. 
 
 ## Design
 ### Colour Scheme
@@ -45,7 +45,7 @@ Its purpose is to test visitors knowledge on one of the UK's major cities, addin
 
 ## Imagery
 
-[Unsplash](https://unsplash.com/) : Unpslash images have been used to in the project to show a part of Birmingham.
+[Unsplash](https://unsplash.com/) : Unsplash images have been used to in the project to show a part of Birmingham.
 
 * Hero Image:
 
@@ -62,7 +62,7 @@ Identifies what kind of page it is, In this case a Quiz.
 ## Wireframes
 All wireframes were created using [balsamiq](https://balsamiq.com/) 
 
-I went slightly off script to my wireframes to include and intro paragraph where the heading was originally going to go, so that i could expand alittle futher on the page as to why I decided to choose Birmingham as the topic and also give some information in regards to the city I call home, By doing this is it also ment moving the heading of the page up on top of the hero image.
+I went slightly off script to my wireframes to include an intro paragraph where the heading was originally going to go, so that I could expand a little futher on the page as to why I decided to choose Birmingham as the topic and also give some information in regards to the city I call home. By doing this is it also meant moving the heading of the page up on top of the hero image.
 
 * Big Brummie Quiz Desktop
 
@@ -81,7 +81,7 @@ I went slightly off script to my wireframes to include and intro paragraph where
 * CSS3 [Link](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * JavaScript [Link](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-## Frameworks, Libaries and Programs
+## Frameworks, Libraries and Programs
 
 1. [Bootstrap 5.3](https://getbootstrap.com/)
 * This was used to assist with the responsiveness and styling of the page.
@@ -98,7 +98,7 @@ I went slightly off script to my wireframes to include and intro paragraph where
 7. [Optimizilla](https://imagecompressor.com/)
 * This was used to compress my pictures to allow for better UX.
 8. [Squoosh](https://squoosh.app/)
-* This was used to adjust the pixel size of mny image to allows for better loading and UX. 
+* This was used to adjust the pixel size of my image to allow for better loading and UX. 
 
 ## Testing
 * Extensive manual testing was done throughout the project 
@@ -124,7 +124,7 @@ Mobile results:
 
 ![view](https://github.com/Aaronnnpf/big-brummie-quiz/blob/main/docs/validation/css-validation.png "CSS Validation")
 
-[JShint](https://jshint.com/) Was used to validate my JaveScript.
+[JShint](https://jshint.com/) Was used to validate my JavaScript.
 
 ![view](https://github.com/Aaronnnpf/big-brummie-quiz/blob/main/docs/validation/JS-validation.png "JavaSCript Validation")
 
@@ -134,7 +134,7 @@ I tested this webiste on
 * Google Chrome
 * Microsoft Edge 
 
-The Webiste was tested on multiple screen sizes including...
+The Website was tested on multiple screen sizes including...
 * Iphone 11
 * Iphone 12
 * Samsung Galaxy s22 Ultra
@@ -156,7 +156,7 @@ The Webiste was tested on multiple screen sizes including...
 
 ### Fixed bugs
 
-* Changed hero image to allow for a better contrast between color and image on top the page.
+* Changed hero image to allow for a better contrast between color and image at the top of the page.
 * The end of the quiz showed "wrong answer Try again" message when the quiz was over. 
 * Hero image would zoom all the way in on smaller screen sizes.
 * The font size for the boxes was too big causing it to flow out of the answer boxes.
@@ -164,7 +164,7 @@ The Webiste was tested on multiple screen sizes including...
 ![small screen](https://github.com/Aaronnnpf/big-brummie-quiz/blob/main/docs/readme/small-screen.png "Small screen")
 
 
-## Testing user experiance (UX)
+## Testing user experience (UX)
 
 * First time user goals.
 
@@ -178,15 +178,15 @@ The Webiste was tested on multiple screen sizes including...
 
 ![Question](https://github.com/Aaronnnpf/big-brummie-quiz/blob/main/docs/readme/continuation.png "Continuation")
 
-3. As a first time user, I want to be able to read alittle about the city.
-* Upon entering the site, You are greeted with an intro paragraph that explains a litte about Birmingham and gives some historical insights aswell as recommendations to those who may consider visiting.
+3. As a first time user, I want to be able to read a little about the city.
+* Upon entering the site, You are greeted with an intro paragraph that explains a little about Birmingham and gives some historical insights as well as recommendations to those who may consider visiting.
 
 ![Intro](https://github.com/Aaronnnpf/big-brummie-quiz/blob/main/docs/readme/intro.png "Intro")
 
 * Returning user goals
 
-1. As a returning user, I want to see if i can increase my score and show I have learnt more.
-* There is a score keeper built into the quiz to show how many questions have bee nanswered correctly, Although the engine itself is a "correct only continuation" I have placed what I believe to be a competitive timer. 
+1. As a returning user, I want to see if I can increase my score and show I have learned more.
+* There is a score keeper built into the quiz to show how many questions have been answered correctly, Although the engine itself is a "correct only continuation" I have placed what I believe to be a competitive timer. 
 
 ![Score](https://github.com/Aaronnnpf/big-brummie-quiz/blob/main/docs/readme/score-timer.png "Score")
 
@@ -203,7 +203,7 @@ The Webiste was tested on multiple screen sizes including...
 * Frequent user goals
 
 1. As a frequent user, I want to be able to test myself, friends and family and be able to compare scores. 
-* The score system combined with the competitive timer allows for an accurate representation of what was achieved in the quiz allowing for competetive score sharing amongst friends and family alike.
+* The score system combined with the competitive timer allows for an accurate representation of what was achieved in the quiz allowing for competitive score sharing amongst friends and family alike.
 
 2. As a frequent user, I want to complete the quiz as quickly as I can.
 * The built in timer function will allow for users to be able to compete for shorter completion times.
@@ -211,7 +211,7 @@ The Webiste was tested on multiple screen sizes including...
 ![Score and timer](https://github.com/Aaronnnpf/big-brummie-quiz/blob/main/docs/readme/score-timer.png "Score and timer")
 
 3. As a frequent user, I want to remind myself of what the city has to offer.
-* The quiz questions and intro paragraph allow for recommendations for the city of Birmingham and points of interest to visit whie touring the city.
+* The quiz questions and intro paragraph allow for recommendations for the city of Birmingham and points of interest to visit while touring the city.
 
 ![Locations](https://github.com/Aaronnnpf/big-brummie-quiz/blob/main/docs/readme/answers.png "Locations")
 
@@ -233,7 +233,7 @@ The project was deployed using the following steps.
 ### Code
 * Image taken from [Unsplash](https://unsplash.com/photos/a-body-of-water-with-buildings-along-it-AsNXE5bbr_Q) Credit to Stefonos Nt.
 * Icon taken from [flaticon](https://www.flaticon.com/free-icon/quiz_5677910?term=quiz&page=1&position=10&origin=search&related_id=5677910).
-* image compression was done with [Squoosh](https://squoosh.app/).
+* Image compression was done with [Squoosh](https://squoosh.app/).
 * Code for questions was from [Sitepoint](https://www.sitepoint.com/simple-javascript-quiz/) Credit to Yaphi Berhanu
 * Code for end game was from [Stackoverflow](https://stackoverflow.com/questions/73477591/end-game-after-last-question-has-been-answered).
 
