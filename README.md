@@ -192,9 +192,9 @@ The Webiste was tested on multiple screen sizes including...
 ![recommendation](https://github.com/Aaronnnpf/big-brummie-quiz/blob/main/docs/readme/answers.png "Recommendation")
 
 3. As a returning user, I want to enjoy the quiz and keep it as user friendly as possible.
-* The quiz is easily accessible. The page is clear and uncluttered, and answersare distinctly colour-coded. The quiz presents a blanced mix of general knowledge and local knowledge questions. Both types promote knowledge acquisition and an enjoyable learning experience.
+* The quiz is easily accessible. The page is clear and uncluttered, and answers are distinctly colour-coded. The quiz presents a blanced mix of general knowledge and local knowledge questions. Both types promote knowledge acquisition and an enjoyable learning experience.
 
-![page]( "Page")
+![page](https://github.com/Aaronnnpf/big-brummie-quiz/blob/main/docs/readme/page.png "Page")
 
 * Frequent user goals
 
