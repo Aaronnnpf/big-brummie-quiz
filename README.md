@@ -16,12 +16,12 @@ Its purpose is to test visitors knowledge on one of the UK's major cities, addin
 * As a first time user, I want to be able to read alittle about the city. 
 
 2. ### Returning user goals
-* As a returning user, I want to see if i can increase my score and show i have learnt more.
+* As a returning user, I want to see if I can increase my score and show i have learnt more.
 * As a returning user, I want to expand upon my knowledge of the city.
 * As a returning user, I want to enjoy the quiz and keep it as user friendly as possible.
 
 3. ### Frequent user goals
-* As a frequent user, I want to be able to test my self and friends and femily and compare scores.
+* As a frequent user, I want to be able to test my self and friends and family and compare scores.
 * As a frequent user, I want to complete the quiz as quick as i can.
 * As a frequent user, I want to remind myself of what the city has had to offer. 
 
@@ -176,6 +176,30 @@ The Webiste was tested on multiple screen sizes including...
 
 3. As a first time user, I want to be able to read alittle about the city.
 * Upon entering the site, You are greeted with an intro paragraph that explains a litte about Birmingham and gives some historical insights aswell as recommendations to those who may consider visiting.
+
+![Intro]( "Intro")
+
+* Returning user goals
+
+1. As a returning user, I want to see if i can increase my score and show I have learnt more.
+* 
+
+2. As a returning user, I want to expand upon my knowledge of the city.
+* 
+
+3. As a returning user, I want to enjoy the quiz and keep it as user friendly as possible.
+* 
+
+* Frequent user goals
+
+1. As a frequent user, I want to be able to test my self and friends and family and compare scores. 
+* 
+
+2. As a frequent user, I want to complete the quiz as quick as i can.
+* 
+
+3. As a frequent user, I want to remind myself of what the city has had to offer.
+* 
 
 ## Development process
 
