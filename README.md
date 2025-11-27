@@ -161,7 +161,7 @@ The Webiste was tested on multiple screen sizes including...
 * Hero image would zoom all the way in on smaller screen sizes.
 * The font size for the boxes was too big causing it to flow out of the answer boxes.
 
-![small screen]( "Small screen")
+![small screen](https://github.com/Aaronnnpf/big-brummie-quiz/blob/main/docs/readme/small-screen.png "Small screen")
 
 
 ## Testing user experiance (UX)
@@ -231,10 +231,12 @@ The project was deployed using the following steps.
 
 ## Credits
 ### Code
-* Image taken from [Unsplash](https://unsplash.com/photos/a-body-of-water-with-buildings-along-it-AsNXE5bbr_Q) Credit to Stefonos Nt
-* Icon taken from [flaticon](https://www.flaticon.com/free-icon/quiz_5677910?term=quiz&page=1&position=10&origin=search&related_id=5677910)
-* image compression was done with [Squoosh](https://squoosh.app/)
+* Image taken from [Unsplash](https://unsplash.com/photos/a-body-of-water-with-buildings-along-it-AsNXE5bbr_Q) Credit to Stefonos Nt.
+* Icon taken from [flaticon](https://www.flaticon.com/free-icon/quiz_5677910?term=quiz&page=1&position=10&origin=search&related_id=5677910).
+* image compression was done with [Squoosh](https://squoosh.app/).
 * Code for questions was from [Sitepoint](https://www.sitepoint.com/simple-javascript-quiz/) Credit to Yaphi Berhanu
-* Code for end game was from [Stackoverflow](https://stackoverflow.com/questions/73477591/end-game-after-last-question-has-been-answered)
+* Code for end game was from [Stackoverflow](https://stackoverflow.com/questions/73477591/end-game-after-last-question-has-been-answered).
+
 ### Acknowledgements
+* * Huge thanks to Rory my Mentor for advice given through out the project.
 
