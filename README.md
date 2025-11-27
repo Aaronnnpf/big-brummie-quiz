@@ -177,15 +177,19 @@ The Webiste was tested on multiple screen sizes including...
 3. As a first time user, I want to be able to read alittle about the city.
 * Upon entering the site, You are greeted with an intro paragraph that explains a litte about Birmingham and gives some historical insights aswell as recommendations to those who may consider visiting.
 
-![Intro]( "Intro")
+![Intro](https://github.com/Aaronnnpf/big-brummie-quiz/blob/main/docs/readme/intro.png "Intro")
 
 * Returning user goals
 
 1. As a returning user, I want to see if i can increase my score and show I have learnt more.
-* 
+* There is a score keeper built into the quiz to show how many questions have bee nanswered correctly, Although the engine itself is a "correct only continuation" I have placed what I believe to be a competitive timer. 
+
+![Score](https://github.com/Aaronnnpf/big-brummie-quiz/blob/main/docs/readme/score-timer.png "Score")
 
 2. As a returning user, I want to expand upon my knowledge of the city.
-* 
+* The quiz itself features sites and areas all within the city itself allowing for the user to become intrigued about the other areas or sites mentioned.
+
+![recommendation](https://github.com/Aaronnnpf/big-brummie-quiz/blob/main/docs/readme/answers.png "Recommendation")
 
 3. As a returning user, I want to enjoy the quiz and keep it as user friendly as possible.
 * 
